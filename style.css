@@ -1,0 +1,41 @@
+:root {
+    --drk-bg-color: #1F2937;
+    --hero-txt-color: #F9FAF8;
+    --hero-txt-color2: #E5E7EB;
+    --btn-tertiary-color: #3882F6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--hero-txt-color2);
+    font-size: .8rem;
+    padding: 0 1rem;
+}
+
+.dark {
+    background-color: var(--drk-bg-color);
+}
+
+.grey {
+    background-color: var(--hero-txt-color2);
+}
+
+.white-txt {
+    color: var(--hero-txt-color);
+}
