@@ -14,11 +14,13 @@
 body {
     width: 800px;
     margin: 0 auto;
+    overflow: scroll;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 1rem 0;
 }
 
 nav a {
@@ -38,4 +40,109 @@ nav a {
 
 .white-txt {
     color: var(--hero-txt-color);
+}
+
+.pad {
+    padding: 0 5%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 40%;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    color: var(--hero-txt-color);
+    background-color: var(--btn-tertiary-color);
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.hero .btn {
+    margin-top: 1rem;
+}
+
+.hero-img {
+    max-width: 40%;
+    border: 3px solid var(--hero-txt-color2);
+    border-radius: 50px;
+}
+
+.illustration {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    padding: 2rem 0 3rem;
+}
+
+.section-cards {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.section-cards .card {
+    max-width: 33%;
+}
+
+.card-img {
+    max-width: 80%;
+    border: 3px solid var(--btn-tertiary-color);
+    border-radius: 50px;
+}
+
+.card .caption {
+    font-size: .8rem;
+    color: var(--drk-bg-color);
+}
+
+.quote {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 2rem;
+}
+
+.quote-txt {
+    padding-bottom: 1rem;
+    ;
+}
+
+.quote .credit {
+    padding-left: 75%;
+}
+
+.signup {
+    background-color: var(--btn-tertiary-color);
+    margin: 3rem 5rem;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--hero-txt-color);
+}
+
+.signup .btn {
+    border: 3px solid var(--hero-txt-color);
+}
+
+footer {
+    height: 3rem;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
 }
